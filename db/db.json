@@ -1,0 +1,31 @@
+{
+  "product": [
+    {
+      "name": "Bat",
+      "catagory": "Sports",
+      "price": "1500",
+      "brand": "BAS",
+      "decription": "Demo text for description",
+      "rating": "4.3",
+      "id": 1
+    },
+    {
+      "name": "Football",
+      "catagory": "Sports",
+      "price": "550",
+      "brand": "Nivia",
+      "decription": "Demo text for football",
+      "rating": "3.8",
+      "id": 4
+    },
+    {
+      "name": "Watch",
+      "catagory": "electronics",
+      "price": "1500",
+      "brand": "Nike",
+      "decription": "Demo text for watch",
+      "rating": "4.3",
+      "id": 5
+    }
+  ]
+}

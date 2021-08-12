@@ -1,0 +1,74 @@
+.linkItem {
+  color: white;
+  padding-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.searchInput {
+  height: 50px;
+  // width: 400px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.input {
+  height: 50px;
+}
+
+.shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.addButton {
+  height: 50px;
+  width: 200px !important;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 17px;
+
+  &:hover {
+    background-color: transparent;
+    color: orangered;
+    // border: 1px solid orangered;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 500ms;
+  }
+}
+
+// product page
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.edBtn {
+  width: 120px;
+  height: 40px;
+  margin: 20px 0 20px 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}

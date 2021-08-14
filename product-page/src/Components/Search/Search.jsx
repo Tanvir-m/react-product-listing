@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import style from '../css/style.module.scss';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AiTwotoneEdit } from 'react-icons/ai';
+import { RiDeleteBin3Line } from 'react-icons/ri';
 
 const Search = () => {
   const [searchData, setsearchData] = useState('');
@@ -56,14 +58,16 @@ const Search = () => {
           <p className="mt-3">Description : {item.decription}</p>
           <h5 className="mt-3">Rating : {item.rating}</h5>
           <Link to={`/update/${item.id}`}>
-            <button className={`${style.edBtn}`}>Edit</button>
+            <button className={`${style.edBtn}`}>
+              <AiTwotoneEdit className={style.icon} />
+            </button>
           </Link>
 
           <button
             className={`${style.edBtn}`}
             onClick={() => deleteClickhandler(item.id)}
           >
-            Delete
+            <RiDeleteBin3Line className={style.icon} />
           </button>
         </Col>
       </>

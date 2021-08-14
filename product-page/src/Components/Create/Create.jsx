@@ -11,7 +11,35 @@ const Create = () => {
   const [dec, setDec] = useState('');
   const [rating, setRating] = useState('');
 
-  const addClickHandler = () => {
+  const addClickHandler = async () => {
+    // const res = fetch('http://localhost:3000/product', {
+    //   method: 'Post',
+    //   headers: {
+    //     'Content-type': 'application/json',
+    //   },
+    //   body: JSON.stringify({
+    //     name: name,
+    //     catagory: cat,
+    //     price: price,
+    //     brand: brand,
+    //     decription: dec,
+    //     rating: rating,
+    //   }),
+    // });
+
+    // const data = res.json();
+
+    // const updateState = () => {
+    //   alert('Your product has been added');
+    //   setName('');
+    //   setCat('');
+    //   setPrice('');
+    //   setDec('');
+    //   setRating('');
+    // };
+
+    // updateState();
+
     fetch('http://localhost:3000/product', {
       method: 'Post',
       headers: {
